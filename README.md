@@ -1,42 +1,13 @@
-# Nitro Minimal Starter
+# nitro-starter
 
-Look at the [Nitro documentation](https://nitro.unjs.io/) to learn more.
+🚀 Nitro Starter
 
-## Setup
+## 使用说明
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# yarn
-yarn install
-
-# pnpm
-pnpm install
+```sh
+npx degit tlyboy/nitro-starter my-new-project
 ```
 
-## Development Server
+## 使用许可
 
-Start the development server on <http://localhost:3000>
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nitro.unjs.io/deploy) for more information.
+[MIT](https://opensource.org/licenses/MIT) © Guany

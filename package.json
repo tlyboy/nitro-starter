@@ -1,12 +1,20 @@
 {
+  "type": "module",
   "private": true,
+  "packageManager": "pnpm@8.9.0",
   "scripts": {
     "prepare": "nitropack prepare",
     "dev": "nitropack dev",
     "build": "nitropack build",
-    "preview": "node .output/server/index.mjs"
+    "preview": "node .output/server/index.mjs",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "nitropack": "latest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "1.0.0-beta.27",
+    "eslint": "^8.51.0"
   }
 }
