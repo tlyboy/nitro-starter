@@ -2,7 +2,7 @@
 export default defineNitroConfig({
   routeRules: {
     '/*': { prerender: true },
-    '/github/**': { proxy: 'https://api.github.com/**' },
+    '/github/**': { proxy: 'https://api.github.com/**', cors: true },
     '/**': { cors: true },
   },
 })
