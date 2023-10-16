@@ -1,6 +1,6 @@
 # nitro-starter
 
-🚀 Nitro Starter
+🚀 Nitro starter
 
 ## 使用说明
 
