@@ -1,2 +1,4 @@
-node_modules
+.nitro
 .output
+dist
+node_modules
