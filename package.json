@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.14.3",
+  "packageManager": "pnpm@8.15.2",
   "scripts": {
     "build": "nitropack build",
     "dev": "nitropack dev",
@@ -14,7 +14,7 @@
     "nitropack": "latest"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.3",
+    "@antfu/eslint-config": "^2.6.4",
     "eslint": "^8.56.0"
   }
 }
