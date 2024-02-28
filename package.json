@@ -1,7 +1,6 @@
 {
-  "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.15.4",
+  "type": "module",
   "scripts": {
     "build": "nitropack build",
     "dev": "nitropack dev",
@@ -13,5 +12,6 @@
   },
   "devDependencies": {
     "prettier": "^3.2.5"
-  }
+  },
+  "packageManager": "pnpm@8.15.4"
 }
