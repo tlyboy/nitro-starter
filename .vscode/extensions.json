@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "antfu.goto-alias",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "ms-azuretools.vscode-docker"
+  ]
+}
