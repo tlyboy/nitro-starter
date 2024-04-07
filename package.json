@@ -4,6 +4,7 @@
   "scripts": {
     "build": "nitropack build",
     "dev": "nitropack dev",
+    "format": "prettier --write .",
     "prepare": "nitropack prepare",
     "preview": "node .output/server/index.mjs"
   },
