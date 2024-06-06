@@ -13,8 +13,8 @@ importers:
         version: 2.8.1
     devDependencies:
       prettier:
-        specifier: ^3.2.5
-        version: 3.2.5
+        specifier: ^3.3.1
+        version: 3.3.1
 
 packages:
 
@@ -1204,8 +1204,8 @@ packages:
   pkg-types@1.0.3:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}
 
-  prettier@3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+  prettier@3.3.1:
+    resolution: {integrity: sha512-7CAwy5dRsxs8PHXT3twixW9/OEll8MLE0VRPCJyl7CkS6VHGPSlsVaWTiASPTyGyYRyApxlaWTzwUxVNrhcwDg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1779,8 +1779,9 @@ snapshots:
 
   '@rollup/plugin-alias@5.1.0(rollup@4.12.0)':
     dependencies:
-      rollup: 4.12.0
       slash: 4.0.0
+    optionalDependencies:
+      rollup: 4.12.0
 
   '@rollup/plugin-commonjs@25.0.7(rollup@4.12.0)':
     dependencies:
@@ -1790,6 +1791,7 @@ snapshots:
       glob: 8.1.0
       is-reference: 1.2.1
       magic-string: 0.30.7
+    optionalDependencies:
       rollup: 4.12.0
 
   '@rollup/plugin-inject@5.0.5(rollup@4.12.0)':
@@ -1797,11 +1799,13 @@ snapshots:
       '@rollup/pluginutils': 5.1.0(rollup@4.12.0)
       estree-walker: 2.0.2
       magic-string: 0.30.7
+    optionalDependencies:
       rollup: 4.12.0
 
   '@rollup/plugin-json@6.1.0(rollup@4.12.0)':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.12.0)
+    optionalDependencies:
       rollup: 4.12.0
 
   '@rollup/plugin-node-resolve@15.2.3(rollup@4.12.0)':
@@ -1812,24 +1816,28 @@ snapshots:
       is-builtin-module: 3.2.1
       is-module: 1.0.0
       resolve: 1.22.8
+    optionalDependencies:
       rollup: 4.12.0
 
   '@rollup/plugin-replace@5.0.5(rollup@4.12.0)':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.12.0)
       magic-string: 0.30.7
+    optionalDependencies:
       rollup: 4.12.0
 
   '@rollup/plugin-terser@0.4.4(rollup@4.12.0)':
     dependencies:
-      rollup: 4.12.0
       serialize-javascript: 6.0.2
       smob: 1.4.1
       terser: 5.28.1
+    optionalDependencies:
+      rollup: 4.12.0
 
   '@rollup/plugin-wasm@6.2.2(rollup@4.12.0)':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.12.0)
+    optionalDependencies:
       rollup: 4.12.0
 
   '@rollup/pluginutils@4.2.1':
@@ -1842,6 +1850,7 @@ snapshots:
       '@types/estree': 1.0.5
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    optionalDependencies:
       rollup: 4.12.0
 
   '@rollup/rollup-android-arm-eabi@4.12.0':
@@ -2722,7 +2731,7 @@ snapshots:
       mlly: 1.6.1
       pathe: 1.1.2
 
-  prettier@3.2.5: {}
+  prettier@3.3.1: {}
 
   pretty-bytes@6.1.1: {}
 
@@ -2796,9 +2805,10 @@ snapshots:
     dependencies:
       open: 8.4.2
       picomatch: 2.3.1
-      rollup: 4.12.0
       source-map: 0.7.4
       yargs: 17.7.2
+    optionalDependencies:
+      rollup: 4.12.0
 
   rollup@4.12.0:
     dependencies:
