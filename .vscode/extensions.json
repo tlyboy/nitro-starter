@@ -1,8 +1,8 @@
 {
-    "recommendations": [
-        "editorconfig.editorconfig",
-        "esbenp.prettier-vscode",
-        "ms-azuretools.vscode-docker",
-        "ms-azuretools.vscode-containers"
-    ]
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "ms-azuretools.vscode-docker",
+    "ms-azuretools.vscode-containers"
+  ]
 }
