@@ -1,3 +1,20 @@
-# Nitro starter
+# nitro-starter
 
-Look at the [nitro quick start](https://nitro.unjs.io/guide#quick-start) to learn more how to get started.
+🚀 Nitro starter
+
+## 安装
+
+```bash
+npx degit tlyboy/nitro-starter my-project
+```
+
+## 使用说明
+
+```bash
+pnpm install
+pnpm dev
+```
+
+## 使用许可
+
+[MIT](https://opensource.org/licenses/MIT) © Guany
